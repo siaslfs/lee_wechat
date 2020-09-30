@@ -20,22 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca12a196-a934-4c0b-bd00-8a7b34a3fc90" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/appsetting.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/demo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/swagger.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/swagger.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/route/route.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/wechat_receive.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/wechat_base.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/wechat_base.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/wechat_base_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/http.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsetting.toml" beforeDir="false" afterPath="$PROJECT_DIR$/appsetting.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/route.go" beforeDir="false" afterPath="$PROJECT_DIR$/route/route.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" path="D:\Go" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -55,15 +61,51 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Lee\project\lee_wechat" />
     </key>
+  </component>
+  <component name="RunManager" selected="Go 构建.go build lee_wechat">
+    <configuration name="go build lee_wechat" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="lee_wechat" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="lee_wechat" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lee_wechat/services 中的 TestGetAccessToken" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="lee_wechat" />
+      <working_directory value="$PROJECT_DIR$/services" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="lee_wechat/services" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestGetAccessToken\E$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go 构建.go build lee_wechat" />
+      <item itemvalue="Go 测试.lee_wechat/services 中的 TestGetAccessToken" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 测试.lee_wechat/services 中的 TestGetAccessToken" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +121,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -87,5 +130,91 @@
         <entry key="GOPROXY" value="https://goproxy.io" />
       </map>
     </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601476714219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601476714219" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601468928822">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601468928822" />
+    <state x="642" y="84" key="CommitChangelistDialog2" timestamp="1601469331291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="642" y="84" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601469331291" />
+    <state width="859" height="466" key="DebuggerActiveHint" timestamp="1601477837809">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="859" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1601477837809" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601469314188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601469314188" />
+    <state width="1900" height="188" key="GridCell.Tab.0.bottom" timestamp="1601478086062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="188" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601478086062" />
+    <state width="1900" height="188" key="GridCell.Tab.0.center" timestamp="1601478086062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="188" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601478086062" />
+    <state width="1900" height="188" key="GridCell.Tab.0.left" timestamp="1601478086061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="188" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601478086061" />
+    <state width="1900" height="188" key="GridCell.Tab.0.right" timestamp="1601478086062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="188" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601478086062" />
+    <state width="1900" height="188" key="GridCell.Tab.1.bottom" timestamp="1601478092144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="188" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601478092144" />
+    <state width="1900" height="188" key="GridCell.Tab.1.center" timestamp="1601478092144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="188" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601478092144" />
+    <state width="1900" height="188" key="GridCell.Tab.1.left" timestamp="1601478092144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="188" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601478092144" />
+    <state width="1900" height="188" key="GridCell.Tab.1.right" timestamp="1601478092144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1900" height="188" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601478092144" />
+    <state x="491" y="165" key="SettingsEditor" timestamp="1601469306465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="491" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601469306465" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601469325698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601469325698" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1601477607521">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1601477607521" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601476230000">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601476230000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/services/wechat_base.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/controller/wechat_receive.go</url>
+          <line>50</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
