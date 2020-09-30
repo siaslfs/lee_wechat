@@ -1,0 +1,27 @@
+host: 10.1.1.248:11001
+info:
+  contact: {}
+  description: 这里是描述
+  license: {}
+  title: 项目接口文档
+  version: "1.0"
+paths:
+  /demo/hello/world:
+    get:
+      consumes:
+      - text/plain
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ok
+          schema:
+            type: string
+        "400":
+          description: fail
+          schema:
+            type: string
+      summary: test
+      tags:
+      - test
+swagger: "2.0"
