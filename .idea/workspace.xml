@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca12a196-a934-4c0b-bd00-8a7b34a3fc90" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/wechat_receive.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/wechat_base.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/wechat_base.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/wechat_base_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/sysconfig.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appsetting.toml" beforeDir="false" afterPath="$PROJECT_DIR$/appsetting.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/route.go" beforeDir="false" afterPath="$PROJECT_DIR$/route/route.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,12 +61,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\go\lee_wechat\config" />
       <recent name="F:\Lee\project\lee_wechat" />
     </key>
   </component>
@@ -123,6 +119,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成初步回复信息，后续继续优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成初步回复信息，后续继续优化" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <environment>
@@ -140,58 +140,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601468928822" />
-    <state x="642" y="84" key="CommitChangelistDialog2" timestamp="1601469331291">
+    <state x="642" y="84" key="CommitChangelistDialog2" timestamp="1601478191052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="642" y="84" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601469331291" />
+    <state x="642" y="84" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601478191052" />
     <state width="859" height="466" key="DebuggerActiveHint" timestamp="1601477837809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="859" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1601477837809" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601469314188">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601634491203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601469314188" />
-    <state width="1900" height="188" key="GridCell.Tab.0.bottom" timestamp="1601478086062">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601634491203" />
+    <state width="1900" height="274" key="GridCell.Tab.0.bottom" timestamp="1601478288441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="188" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601478086062" />
-    <state width="1900" height="188" key="GridCell.Tab.0.center" timestamp="1601478086062">
+    <state width="1900" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601478288441" />
+    <state width="1900" height="274" key="GridCell.Tab.0.center" timestamp="1601478288441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="188" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601478086062" />
-    <state width="1900" height="188" key="GridCell.Tab.0.left" timestamp="1601478086061">
+    <state width="1900" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601478288441" />
+    <state width="1900" height="274" key="GridCell.Tab.0.left" timestamp="1601478288441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="188" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601478086061" />
-    <state width="1900" height="188" key="GridCell.Tab.0.right" timestamp="1601478086062">
+    <state width="1900" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601478288441" />
+    <state width="1900" height="274" key="GridCell.Tab.0.right" timestamp="1601478288441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="188" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601478086062" />
-    <state width="1900" height="188" key="GridCell.Tab.1.bottom" timestamp="1601478092144">
+    <state width="1900" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601478288441" />
+    <state width="1900" height="193" key="GridCell.Tab.1.bottom" timestamp="1601478288437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="188" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601478092144" />
-    <state width="1900" height="188" key="GridCell.Tab.1.center" timestamp="1601478092144">
+    <state width="1900" height="193" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601478288437" />
+    <state width="1900" height="193" key="GridCell.Tab.1.center" timestamp="1601478288437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="188" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601478092144" />
-    <state width="1900" height="188" key="GridCell.Tab.1.left" timestamp="1601478092144">
+    <state width="1900" height="193" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601478288437" />
+    <state width="1900" height="193" key="GridCell.Tab.1.left" timestamp="1601478288436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="188" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601478092144" />
-    <state width="1900" height="188" key="GridCell.Tab.1.right" timestamp="1601478092144">
+    <state width="1900" height="193" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601478288436" />
+    <state width="1900" height="193" key="GridCell.Tab.1.right" timestamp="1601478288437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1900" height="188" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601478092144" />
+    <state width="1900" height="193" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601478288437" />
     <state x="491" y="165" key="SettingsEditor" timestamp="1601469306465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="491" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601469306465" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601469325698">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601635947724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601469325698" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601635947724" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1601477607521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -208,11 +208,6 @@
           <url>file://$PROJECT_DIR$/services/wechat_base.go</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/controller/wechat_receive.go</url>
-          <line>50</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

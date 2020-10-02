@@ -1,11 +1,6 @@
 #[lee_wechat]
 #Appid="lee_wechat"
-# 配置文件信息
-[WechatUrls]
-AccessTokenUrl = "https://api.weixin.qq.com/cgi-bin/token"
-AccessToken="37_vL1Tv-rjvAeonr63aorpFiGfbsaABkYxncikYiMHjXnTx_byYKNNmtLXlKf-YffGq8wvyxO8WfTurnBbeQM-XwHprfMQF-7HvdDD2TXkyNbY_dSLa6LX3FlXmgaB575lWNM0-yy4IBcwn_Z2IZZhAGAZQQ"
-#暂时使用下，后续读库
 
-[WechatConfig]
+[Wechat]
 Appid="wxe7c90d3859e08158"
-APPSECRET="3a82cca3518cca0853d8cb2962d237c1"
+Secret="3a82cca3518cca0853d8cb2962d237c1"
